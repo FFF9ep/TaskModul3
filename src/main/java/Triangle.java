@@ -51,7 +51,7 @@ class Triangle extends AbstractShape {
     public static Triangle createTriangle(Scanner scanner) {
         ShapeParameters baseParam = new ShapeParameters("Masukkan panjang alas segitiga: ");
         ShapeParameters heightParam = new ShapeParameters("Masukkan tinggi segitiga: ");
-        ShapeParameters sideAParam = new ShapeParameters("Masukkan panjang sisi pertama: ");
+        ShapeParameters sideAParam = new ShapeParameters("Masukkan panjang sisi kesatu: ");
         ShapeParameters sideBParam = new ShapeParameters("Masukkan panjang sisi kedua: ");
         ShapeParameters sideCParam = new ShapeParameters("Masukkan panjang sisi ketiga: ");
 
